@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2family=noto+emoji:wght@700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: bisque;
+}
+/* MAIN STYLES FIRST */
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    display: block;
+}
+main{
+    width: 500px;
+    height: 400px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+}
+.sidebar{
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 0 10px 10px 0;
+}
+.prize p{
+    color: blue;
+    font-size: xx-large;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    color: whitesmoke;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+/* TOPOGRAPHY */
+.head{
+    text-transform: uppercase;
+    color: rgb(119, 112, 112);
+    padding: 10px;
+}
+p{
+    color: rgb(119, 112, 112);
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+}
+del{
+    color:rgb(119, 112, 112);
+    padding-left: 10px;
+    font-size: 15px;
+}
